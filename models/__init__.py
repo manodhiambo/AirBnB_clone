@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""
-__init__ dunder method for the models directory
-"""
-from models.engine.file_storage import FileStorage
 
+""" Module to create a unique FileStorage instance for the application """
+
+from models.engine.file_storage import FileStorage
 
 storage = FileStorage()
 storage.reload()
